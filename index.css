@@ -64,3 +64,15 @@ button {
 #save-para {
     color: black;
 }
+
+@media (max-width: 480px) {
+    button {
+        width: 160px;
+    }
+}
+
+@media (max-width: 393px) {
+    button {
+        width: 140px;
+    }
+}
